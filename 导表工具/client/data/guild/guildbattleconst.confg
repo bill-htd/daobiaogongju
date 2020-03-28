@@ -1,0 +1,36 @@
+--G-公会战.xlsx 常量配置
+GuildBattleConst={
+
+	occupationAward = {{type=0,id=2,count=20000},{type=1,id=900009,count=1},{type=1,id=900007,count=1},{type=1,id=900008,count=1}},
+	openLevel = 60,
+	maxDay = 8,
+	continueTime = 60 * 20,
+	openServer = {day =4,hours =20,min = 0},
+	occupationAwardShow = {{type=0,id=2,count=20000},{type=1,id=900009,count=1},{type=1,id=900007,count=1},{type=1,id=900008,count=1}},
+	memberOccupationAwardHead = "皇城占领奖励",
+	memberOccupationAwardContext = "恭喜你的行会成功占领了龙城，成为龙城的主人，所有行会成员获得“龙城精英”称号。占领行会将获得20000元宝的红包奖励，由帮主进行分发。",
+	gateLiveTime = 120,
+	gateLotteryWaitTime = 60,
+	gatherTime = 300,
+	hefuAward = {
+ leader = {
+  context = "合服期间，您的公会在龙城争霸中成功占领了皇宫，附件是您本次活动的奖励，请查收。",
+  title = "龙城争霸会长奖",
+  award = {
+   [1] = {{type=0,id=2,count=20000},{type=1,id=200917,count=3}},
+   [2] = {{type=0,id=2,count=20000},{type=1,id=200917,count=3}},
+   [3] = {{type=0,id=2,count=20000},{type=1,id=200917,count=3}},
+  }
+ },
+ normal = {
+  context = "合服期间，您在龙城争霸活动中大显神威，附件是您本次活动的奖励，请查收。",
+  title = "龙城争霸战斗奖",
+  award = {
+   [1] = {{type=0,id=2,count=200},{type=1,id=200005,count=5},{type=0,id=1,count=500000}},
+   [2] = {{type=0,id=2,count=200},{type=1,id=200005,count=5},{type=0,id=1,count=500000}},
+   [3] = {{type=0,id=2,count=200},{type=1,id=200005,count=5},{type=0,id=1,count=500000}},
+  }
+ }
+},
+	hefuOpen = {{day = 3,hours = 20,min = 30},{day = 5,hours = 20,min = 30},{day = 7,hours = 20,min = 30}},
+}
