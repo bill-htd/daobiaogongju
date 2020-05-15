@@ -2,6 +2,6 @@
 <Config>
   <currentId>0</currentId>
   <configs>
-    <config name="主配置" toolPath="D:\jiaoJie\导表工具\tool" tablePath="D:\jiaoJie\导表工具" />
+    <config name="主配置" toolPath="D:\daobiaogongju\daobiaogongju\导表工具\tool" tablePath="D:\daobiaogongju\daobiaogongju\导表工具" />
   </configs>
 </Config>
